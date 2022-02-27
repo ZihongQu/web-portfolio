@@ -1,0 +1,38 @@
+.title{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 2rem;
+    font-weight: 100;
+    color: rgb(61, 58, 58);
+}
+
+.buttonGroup{
+    display: flex;
+    justify-content: end;
+    margin-right: 5%;
+    margin-top:2%
+}
+.btn{
+    color: rgb(105, 100, 100) !important
+}
+.btn:hover{
+    color:white !important
+}
+.iconBtn{
+    fill: white !important
+}
+.iconBtn:hover{
+    fill:grey !important
+}
+.card{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 25%;
+    height: 60%;
+    position: relative
+  }
+
+  .cardLayout{
+      display: flex;
+      flex-direction: column;
+  }
