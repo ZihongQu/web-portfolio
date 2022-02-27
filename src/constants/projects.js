@@ -6,7 +6,8 @@ export const projects = [
         name: 'Web Portfolio',
         content: 'To be updated',
         img: '',
-        tags: ['React','React-Spring','MUI']
+        tags: ['React','React-Spring','MUI'],
+        id: 1
     },
     {
         offset: 1.2,
@@ -15,7 +16,8 @@ export const projects = [
         name: 'Movie Nights App',
         content: 'To be updated',
         img: '',
-        tags: ['MongoDB','Node','Express','React']
+        tags: ['MongoDB','Node','Express','React'],
+        id: 2
     },
     {
         offset: 1.1,

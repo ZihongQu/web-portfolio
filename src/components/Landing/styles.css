@@ -28,11 +28,16 @@
     flex-direction: column;
     justify-content: space-between;
     width: 25%;
-    height: 60%;
+    height: 70%;
     position: relative
   }
 
   .cardLayout{
+    display: block !important;
+    text-align: center;
+  }
+
+  .tag{
       display: flex;
-      flex-direction: column;
+      justify-content: space-evenly;
   }
