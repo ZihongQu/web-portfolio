@@ -27,7 +27,7 @@ const Landing = () => {
           style={{
             backgroundImage: `url(${clouds})`,
             backgroundSize: 'cover',
-            opacity:'1',
+            opacity:'0.5',
           }}
           >
             <figcaption style={{marginLeft:'80'}}>Photo by Oleg Magni from Pexels</figcaption>
