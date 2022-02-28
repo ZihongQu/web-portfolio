@@ -1,6 +1,6 @@
 export const projects = [
     {
-        offset: 1.1,
+        offset: 2.1,
         margin: '12.5%',
         speed: 0.2,
         name: 'Web Portfolio',
@@ -10,7 +10,7 @@ export const projects = [
         id: 1
     },
     {
-        offset: 1.2,
+        offset: 2.2,
         margin: '37.5%',
         speed: -0.1,
         name: 'Movie Nights App',
@@ -20,22 +20,22 @@ export const projects = [
         id: 2
     },
     {
-        offset: 1.1,
+        offset: 2.1,
         margin: '62.5%',
         speed: 0.2
     },
     {
-        offset: 2.1,
+        offset: 3.1,
         margin: '12.5%',
         speed: -0.1
     },
     {
-        offset: 2,
+        offset: 3,
         margin: '37.5%',
         speed: 0.1
     },
     {
-        offset: 2.1,
+        offset: 3.1,
         margin: '62.5%',
         speed: -0.1
     }
