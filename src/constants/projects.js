@@ -14,29 +14,17 @@ export const projects = [
         margin: '37.5%',
         speed: -0.1,
         name: 'Movie Nights App',
-        content: 'To be updated',
+        content: 'Movie-Nights is a full stack application that allows users to post their recommendations/thoughts about movies. Users can create their own posts or like/comment on other people\'s posts!',
         img: '',
-        tags: ['MongoDB','Node','Express','React'],
+        tags: ['MongoDB','Node','Express','React', 'React-Redux'],
         id: 2
     },
     {
         offset: 2.1,
         margin: '62.5%',
-        speed: 0.2
+        speed: 0.2,
+        name: 'Exploring Parallax',
+        content: 'To be updated',
+        tags: ['unknown'],
     },
-    {
-        offset: 3.1,
-        margin: '12.5%',
-        speed: -0.1
-    },
-    {
-        offset: 3,
-        margin: '37.5%',
-        speed: 0.1
-    },
-    {
-        offset: 3.1,
-        margin: '62.5%',
-        speed: -0.1
-    }
 ]

@@ -1,43 +1,144 @@
-.title{
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    font-size: 2rem;
-    font-weight: 100;
-    color: rgb(61, 58, 58);
+@import url('https://fonts.googleapis.com/css2?family=Merriweather&display=swap');
+.projectSection{
+    background-image: url('../../assets/fit1.jpg');
+    width: 100%;
+    background-size: cover;
 }
 
-.buttonGroup{
-    display: flex;
-    justify-content: end;
-    margin-right: 5%;
-    margin-top:2%
+.bg{
+    background-image: url('../../assets/fit1.jpg');
+    width: 100%;
+    background-size: cover;
 }
-.btn{
-    color: rgb(105, 100, 100) !important
-}
-.btn:hover{
-    color:white !important
-}
-.iconBtn{
-    fill: white !important
-}
-.iconBtn:hover{
-    fill:grey !important
-}
-.card{
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    width: 25%;
-    height: 70%;
-    position: relative
-  }
 
-  .cardLayout{
-    display: block !important;
+.container{
+    padding: 7%;
     text-align: center;
-  }
+}
 
-  .tag{
-      display: flex;
-      justify-content: space-evenly;
-  }
+.titleSection{
+    font-family: 'Merriweather', serif;
+    color:white
+}
+
+.subtitle{
+    color: #dbbd7f;
+    font-family: 'Merriweather', serif;
+}
+
+.margin{
+    margin-top: 3%;
+}
+
+.row {
+    margin-top: 3%;
+    display: flex;
+}
+
+ @media screen and (max-width: 700px) {
+
+    .row {
+        margin-top: 3%;
+        display: inline;
+    }
+ }
+
+.column{
+    flex: 50%;
+    padding: 10px;
+}
+ 
+
+.css-8t49rw-MuiStepConnector-line {
+    border-color: white !important;
+}
+.css-14yr603-MuiStepContent-root {
+    border-color: white !important;
+}
+.Mui-completed {
+    color:#214261 !important;
+    font-family: 'Merriweather', serif !important;
+}
+.about-me{
+    background-color: 
+    #dbbd7f;
+    font-family: 'Merriweather', serif;
+    margin-right: 1%;
+    color: #214261;
+    padding-top: 3%;
+}
+
+@media screen and (max-width: 700px) {
+
+    .about-me{
+        margin-right: 0;
+    }
+ }
+
+.contactSection {
+    background-color: #257d79;
+    font-family: 'Merriweather', serif;
+    color: #dbbd7f;
+    margin-right: 1%;
+}
+@media screen and (max-width: 700px) {
+    .contactSection {
+        margin-right: 0;
+    }
+ }
+
+.contact {
+    margin:7%;
+}
+
+.other {
+    background-color: 
+    #dbbd7f;
+    color: white;
+    margin-left: 1%;
+    font-family: 'Merriweather', serif;
+}
+@media screen and (max-width: 700px) {
+    .other {
+        margin-left: 0;
+    }
+ }
+
+.btnAlignment {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    padding:2%
+}
+
+.media{
+    height: 0;
+    margin-bottom: 5%;
+    padding-top: 60%
+}
+
+.pic{
+    background-color: 
+    #dbbd7f;
+    margin-left: 1%;
+}
+@media screen and (max-width: 700px) {
+    .pic{
+        background-color: 
+        #dbbd7f;
+        margin-left: 0;
+    }
+ }
+
+.gridContainer{
+    margin-top: 5%;
+    margin-left: 0px;
+}
+
+.infoGrid {
+    margin: 2%
+}
+
+.btnGroup{
+    margin-left: 90%;
+}
