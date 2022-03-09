@@ -1,0 +1,33 @@
+.paper{
+    display: flex;
+    justify-content: center;
+    padding-bottom: 6%;
+}
+
+.container{
+    align-items: center;
+}
+
+.input{
+    background-color: grey;
+}
+
+.meme {
+    width: 65vw;
+    height: 70vh;
+    position: relative;
+}
+
+.meme img{
+    position: relative;
+    height: 100%;
+}
+.innerContainer{
+    display: flex;
+    flex-direction: column;
+}
+
+.upload {
+    width: 100%;
+    margin: 10px, 0
+  }

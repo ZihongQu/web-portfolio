@@ -1,8 +1,6 @@
 export const projects = [
     {
-        offset: 2.1,
-        margin: '12.5%',
-        speed: 0.2,
+        id: 1,
         name: 'Web Portfolio',
         content: 'To be updated',
         img: '',
@@ -10,6 +8,7 @@ export const projects = [
         id: 1
     },
     {
+        id:2,
         offset: 2.2,
         margin: '37.5%',
         speed: -0.1,
@@ -20,6 +19,7 @@ export const projects = [
         id: 2
     },
     {
+        id:3,
         offset: 2.1,
         margin: '62.5%',
         speed: 0.2,
