@@ -3,7 +3,6 @@ import gsap from 'gsap';
 import {BrowserRouter, Routes , Route, Navigate } from 'react-router-dom';
 import './App.css';
 import Landing from './components/Landing/Landing';
-import ProjectTwo from './components/ProjectTwo/ProjectTwo';
 import Parallax from './components/Parallax/Parallax';
 
 function App() {
@@ -12,7 +11,6 @@ function App() {
     <BrowserRouter>
           <Routes >
             <Route path='/' exact element={<Landing/>}></Route>
-            <Route path='/project2' exact element={<ProjectTwo/>}></Route>
             <Route path='/project3' exact element={<Parallax/>}></Route>
           </Routes >
     </BrowserRouter>

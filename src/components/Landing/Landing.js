@@ -6,13 +6,11 @@ import GitHubIcon from '@mui/icons-material/GitHub';
 import MenuBookIcon from '@mui/icons-material/MenuBook';
 import MailOutlineIcon from '@mui/icons-material/MailOutline';
 import PhoneAndroidIcon from '@mui/icons-material/PhoneAndroid';
-import FacebookIcon from '@mui/icons-material/Facebook';
 import WorkIcon from '@mui/icons-material/Work';
 import { useNavigate } from 'react-router-dom';
 import {gsap,Power3} from 'gsap';
 import './styles.css'; 
 import {projects} from '../../constants/projects.js';
-import clouds from '../../../src/assets/cloud2.jpg';
 import bg from '../../assets/me.jpg';
 
 const steps = [
@@ -34,7 +32,7 @@ const steps = [
   {
     label: 'University of South Australia ( Jan 2018 - Dec 2020 )',
     info: 'Bachelor of Infomation Technology - Software Development',
-    description: `Graduated with a GPA of 6.45. Merits Award`,
+    description: `Graduated with a GPA of 6.45.`,
   },
 ];
 
@@ -71,7 +69,7 @@ const Landing = () => {
         <div className="column about-me">
           <h2 style={{marginLeft:'10%'}}>About Me</h2>
           <p style={{marginRight: '10%',fontSize:'large', marginLeft:'10%'}}>I am a junior software engineer who is passionate about web development and its technologies.
-          I am familiar with both front-end & back-end technologies. Having been working as a full stack developer at PwC, I have helped develop and deliver multiple projects to clients.
+          I believe in continuous self-learning and I am always on the journey of learing something new! 
           </p>
           <Stepper style={{marginLeft:'5%', marginRight:'10%',marginBottom:'5%'}} activeStep={3} orientation="vertical">
           {steps.map((step,index) => (
@@ -94,17 +92,17 @@ const Landing = () => {
           <img src={bg} style={{width:'100%'}}></img>
         </div>
       </div>
+
       <div className='projectSection'>
-        <div className='container margin'>
-          <Typography variant='h4' gutterBottom style={{color:'white'}}>Personal Projects</Typography>
-          <Typography variant='h6' style={{color:'#dbbd7f',marginLeft:'20%',marginRight:'20%',marginTop:'3%',marginBottom:'3%'}}>I like exploring and playing around with new stuff, and have built a few personal projects using 
-          front end & back end technologies in my free time</Typography>
-          <Grid className='gridContainer' container spacing={2}>
+        <div className='container margin font'>
+          <h1 gutterBottom style={{color:'white'}}>Personal Projects</h1>
+          <Typography variant='h6' style={{color:'#dbbd7f',marginLeft:'20%',marginRight:'20%',marginTop:'3%',marginBottom:'3%'}}>I like exploring and playing around with new stuff, and have built a few personal projects in my free time</Typography>
+          <Grid className='gridContainer' container spacing={1}>
             {projects.map(p => (
-              <Grid item xs={12} sm={6} md={4}>
-              <Card square style={{padding:'1%',height:'100%'}}>
+              <Grid item xs={12} sm={6} md={6}>
+              <Card square style={{padding:'1%',height:'100%', marginLeft:'10%',marginRight:'10%'}}>
                 <div style={{display:'flex',flexDirection:'column',justifyContent:'space-between',height:'100%'}}>
-                <CardMedia image={clouds} className='media' title={p.name}></CardMedia>
+                <CardMedia image={p.img} className='media' title={p.name}></CardMedia>
                 <Typography style={{marginBottom:'5%'}} variant='h6'>{p.name}</Typography>  
                 <Typography style={{marginBottom:'5%',marginLeft:'7%',marginRight:'7%'}}  color='textSecondary' variant='body1'>{p.content}</Typography>  
                 <div style={{display:'flex',justifyContent:'space-evenly'}}>
@@ -115,7 +113,7 @@ const Landing = () => {
                 <Button 
                   fullWidth 
                   style={{backgroundColor:'#dbbd7f', marginTop:'5%',color:"#214261"}}
-                  onClick={() => navigate(`/project${p.id}`)}
+                  onClick={() => window.open(p.url)}
                   >View Detail</Button>
                 </div>
               </Card>        
@@ -139,7 +137,7 @@ const Landing = () => {
           </div>
         </div>
         <div className='column other'>
-          sfsdf
+          <span>I mean, I don't bite ...</span>
         </div>
       </div>
 
